@@ -62,6 +62,7 @@ body {
     width: 300px; }
   .app__text {
     font-size: 13px;
+    word-spacing: 3px;
     margin: 50px 0 20px 0; }
   .app__social .fab, .app__social .fas {
     margin: 10px 20px; }
