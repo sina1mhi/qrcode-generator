@@ -67,3 +67,7 @@ body {
     margin: 50px 0 20px 0; }
   .app__social .fab, .app__social .fas {
     margin: 10px 20px; }
+
+@media screen and (max-width: 576px) {
+  .app__form {
+    padding: 20px 0; } }

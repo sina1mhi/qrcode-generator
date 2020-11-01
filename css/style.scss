@@ -94,3 +94,12 @@ body {
     }
   }
 }
+
+// Media Queries
+@media screen and (max-width:576px) {
+  .app {
+    &__form {
+      padding: 20px 0;
+    }
+  }
+}
