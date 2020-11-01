@@ -27,7 +27,6 @@ inputEL.addEventListener('keydown', function(e){
     qrcodeEL.querySelector('img[alt="Scan me!"]').style.display = 'none';
     sampleQRCodeEL.style.display = 'block';
   }
-  e.preventDefault();
 });
 
 // Create Loading Image
