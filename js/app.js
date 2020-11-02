@@ -26,9 +26,10 @@ inputEL.addEventListener('keyup', function(e){
       qrcode.makeCode(inputEL.value);
     }
   } else if (e.keyCode === 13 && !inputEL.value) {
-    alert(`Enter something before submiting!\nQRcode will now reset...`);
+    alert(`Invalid value.`);
     sampleQRCodeEL.style.display = 'block';
     qrcodeEL.querySelector('img[alt="Scan me!"]').remove();
     qrcodeEL.querySelector('canvas').remove();
+    codeCounter = 0;
   }
 });
